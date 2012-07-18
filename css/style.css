@@ -37,11 +37,27 @@ h1 {
 
 #photo-list {
   list-style-type: none;
-  margin: 0;
+  margin: 20px 0 20px 10px;
+}
+
+#photo-list li {
+  height: 20px;
+}
+
+#photo-list a {
+  color: black;
+}
+
+#photo-list a.active {
+  font-weight: bold;
 }
 
 .carousel-image-wrapper {
   overflow: hidden;
   height: 500px;
   text-align: center;
+}
+
+#photo-description {
+  color: #666;
 }

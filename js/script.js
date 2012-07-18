@@ -4,6 +4,14 @@
   var updateCarouselSelection = function() {
     var index = $('#lightbox .item.active').index('#lightbox .item');
     
+    // Update the sidebar selection.
+    var activeLink = $('#photo-list a.active');
+    if (activeLink.length > 0) {
+      activeLink.removeClass('active');
+    }
+    $($('#photo-list a')[index]).addClass('active');
+    
+    // Insert the photo description into the p tag below the lightbox.
     $('#photo-description').html(window.photos[index].description);
   };
     
@@ -43,7 +51,7 @@
     });    
 
     $('#lightbox')
-      .carousel({interval: 1000})
+      .carousel({interval: 5000})
       .on('slid', updateCarouselSelection);
 
     updateCarouselSelection();    
