@@ -11,7 +11,7 @@
     $.getJSON("photos/photos.json", function(data) {
       $(data).each(function(idx) {
         var photo = this;
-        photo.id = (idx + 1);
+        photo.id = idx;
         window.photos.push(photo);
       });
       buildSidebar();
@@ -19,14 +19,21 @@
     });
   };
   
-  var buildSidebar = function() {
-    
+  var setupLinks = function() {
+    $('#photo-list a').click(function(evt) {
+      evt.preventDefault();      
+      $('#lightbox').carousel($(this).data('photo-index'));
+    });
+  };
+  
+  var buildSidebar = function() {    
     $(photos).each(function() {
       var listItem = ich.photoListItem(this);
       $('#photo-list').append(listItem);
-    });    
+    });
+    setupLinks();
   };
-  
+    
   var buildCarousel = function() {
     $(window.photos).each(function(idx) {
       var photo = this;
@@ -45,6 +52,7 @@
   $(function() {
     window.photos = [];
     loadPhotos();
+    
   });
   
 })(jQuery);
