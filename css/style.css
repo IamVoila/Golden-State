@@ -1,0 +1,41 @@
+body, html {
+  background: #e4decf;
+}
+
+body {
+  padding-top: 10px;
+}
+
+h1 {
+  font-family: 'Podkova', serif;
+  color: white;
+}
+
+.content-box {
+  background: white;
+}
+
+.content-box-inner {
+  padding: 5px;
+}
+
+#gallery-title {
+  background: black;
+  padding: 5px;
+}
+
+#gallery-title p {
+  color: gray;
+  font-family: 'Podkova', serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#lightbox {
+  height: 500px;
+}
+
+#photo-list {
+  list-style-type: none;
+  margin: 0;
+}
