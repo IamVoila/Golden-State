@@ -1,17 +1,27 @@
 [
   {
-    "url": "photos/moxie.jpg",
-    "title": "Moxie",
+    "url": "photos/moxie_1.jpg",
+    "title": "Moxie I",
     "description": "My sweet, little french bulldog, Moxie."
   },
   {
-    "url": "photos/dcfc.jpg",
-    "title": "Ben Gibbard",
-    "description": "Ben Gibbard of Death Cab for Cutie."
+    "url": "photos/moxie_2.jpg",
+    "title": "Moxie II",
+    "description": "My sweet, little french bulldog, Moxie."
   },
   {
-    "url": "photos/marlene.jpg",
-    "title": "Marlene",
-    "description": "Marlene looking expressive :)"
+    "url": "photos/moxie_3.jpg",
+    "title": "Moxie III",
+    "description": "My sweet, little french bulldog, Moxie."
+  },
+  {
+    "url": "photos/moxie_4.jpg",
+    "title": "Moxie IV",
+    "description": "My sweet, little french bulldog, Moxie."
+  },
+  {
+    "url": "photos/moxie_5.jpg",
+    "title": "Moxie V",
+    "description": "My sweet, little french bulldog, Moxie."
   }
 ]
