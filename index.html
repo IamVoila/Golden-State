@@ -38,9 +38,6 @@
             <div id="lightbox" class="carousel slide">
               <!-- Carousel items -->
               <div class="carousel-inner">
-                <div class="active item">…</div>
-                <div class="item">…</div>
-                <div class="item">…</div>
               </div>
               <!-- Carousel nav -->
               <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -62,6 +59,14 @@
   <li>
     <a href='#{{ id }}'>{{ title }}</a>
   </li>
+</script>
+
+<script id="carouselItem" type="text/html">
+  <div class="{{ cssclass }} item">
+    <div class='carousel-image-wrapper'>
+      <img src='{{ url }}'>
+    </div>
+  </div>
 </script>
     
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>

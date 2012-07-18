@@ -39,3 +39,9 @@ h1 {
   list-style-type: none;
   margin: 0;
 }
+
+.carousel-image-wrapper {
+  overflow: hidden;
+  height: 500px;
+  text-align: center;
+}
