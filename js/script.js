@@ -1,5 +1,11 @@
 
 (function($) {
+  
+  var updateCarouselSelection = function() {
+    var index = $('#lightbox .item.active').index('#lightbox .item');
+    
+    $('#photo-description').html(window.photos[index].description);
+  };
     
   var loadPhotos = function() {
     $.getJSON("photos/photos.json", function(data) {
@@ -29,9 +35,11 @@
       $('#lightbox .carousel-inner').append(carouselItem);
     });    
 
-    $('#lightbox').carousel({
-      
-    });
+    $('#lightbox')
+      .carousel({interval: 1000})
+      .on('slid', updateCarouselSelection);
+
+    updateCarouselSelection();    
   };
   
   $(function() {
