@@ -2,19 +2,16 @@
 /* humanstxt.org */
 
 
-/* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+/* CREATED BY */
+  Aaron Brethorst
+  Site: http://www.brethorsting.com and http://www.aaronbrethorst.com
+  Twitter: aaronbrethorst
+  Location: Seattle WA
 
-/* THANKS */
-  Names (& URL):
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software:
+  Components: Modernizr, jQuery, iCanHaz, Bootstrap
 
 
 
