@@ -1,0 +1,12 @@
+Created by Aaron Brethorst (@aaronbrethorst on Twitter).
+
+Inspired by a beautifully simple gallery from Cargo Collective.
+
+Uses: HTML5 Boilerplate, Modernizr, jQuery, iCanHaz, Bootstrap.
+
+Usage:
+
+- Remove my photos from the photos directory
+- Add your own photos
+- Customize the text and photo file names in the photos.json file
+- Success!
